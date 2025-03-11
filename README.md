@@ -34,7 +34,8 @@ temperature = 0.5
 # Call the function with the correct image format
 multimodal_understanding([image], question, seed, top_p, temperature)
 ```
-
+#### Example Input
+![Cat_photo](frame_0.jpg)
 #### Example Output
 > "I see two cats in the photo. One cat is white and is standing near the wooden shelf on the left side of the image. 
 The other cat is mostly white with some black markings and is sitting on the floor near the center of the image. 
@@ -63,7 +64,6 @@ upscaled_image = image_upsample(generated_images[0])
 upscaled_image.show()
 ```
 
-#### Example Output
 #### Input Prompt
 > "A cozy and inviting room for cats with soft furniture, natural lighting, interactive toys, and climbing structures."
 
